@@ -1,0 +1,26 @@
+/* TypingAnimation.css */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900');
+.typing-animation {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+ 
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
